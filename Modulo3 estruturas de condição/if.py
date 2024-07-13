@@ -44,14 +44,24 @@
 # else:
 #     print("Você não precisa pagar imposto de renda")
        
-n1 = int(input("Insira um número"))
-n2 = int(input("Insira outro número"))
+# n1 = int(input("Insira um número"))
+# n2 = int(input("Insira outro número"))
 
-print(n1, n2)
+# print(n1, n2)
 
-multiplicacao = n1 * n2
+# multiplicacao = n1 * n2
 
-if multiplicacao >= 100:
-    print(f"Os dois número multiplicados no valor de {multiplicacao} é acima de 100")
-else:
-    print(f"Os dois número multiplicados no valor de {multiplicacao} é abaixo de 100")
+# if multiplicacao >= 100:
+#     print(f"Os dois número multiplicados no valor de {multiplicacao} é acima de 100")
+# else:
+#     print(f"Os dois número multiplicados no valor de {multiplicacao} é abaixo de 100")
+
+n1 = int(input("Escreva um numero"))
+
+if n1 > 10:
+    if n1 < 20:
+        print(n1 * 2)
+    else:
+        print(n1 * 5)
+else: 
+    print("O numero precisa ser maior que 10")    
