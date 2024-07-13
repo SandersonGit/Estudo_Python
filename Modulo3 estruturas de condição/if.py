@@ -56,12 +56,41 @@
 # else:
 #     print(f"Os dois número multiplicados no valor de {multiplicacao} é abaixo de 100")
 
-n1 = int(input("Escreva um numero"))
+# n1 = int(input("Escreva um numero"))
 
-if n1 > 10:
-    if n1 < 20:
-        print(n1 * 2)
-    else:
-        print(n1 * 5)
-else: 
-    print("O numero precisa ser maior que 10")    
+# if n1 > 10:
+#     if n1 < 20:
+#         print(n1 * 2)
+#     else:
+#         print(n1 * 5)
+# else: 
+#     print("O numero precisa ser maior que 10")    
+
+# categoria = int(input("Qual é a categoria de 1 a 3?"))
+
+# if categoria == 1:
+#     print("É uma bolsa")
+# elif categoria == 2:
+#     print("É um tenis")
+# elif categoria == 3:
+#     print("É uma mochila")
+# else:
+#     print("Digite um número de 1 a 3")
+
+# renda = float(input("QWual a sua renda?"))
+
+# if renda < 2000 and renda > 0 :
+#     print("Liberado 1000 de limite")
+# elif renda > 2000 and renda < 4000:
+#     print("Limite liberado 2000")
+# elif renda > 4000 and renda < 6000:
+#     print("limite de 3000")
+# elif renda > 6000:
+#     print("Falar com gerente")
+# else: 
+#     print("Sem renda")
+
+idade = 18
+
+if idade >= 18:
+    print("Você é maior de idade")
