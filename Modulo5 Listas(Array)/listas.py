@@ -52,11 +52,25 @@
 
 # print(novaLista4)
 
-frutas = ["Maçã", "Cajú", "Banana", "Morango", "Jaca"]
+# frutas = ["Maçã", "Cajú", "Banana", "Morango", "Jaca"]
 
-print(len(frutas))
+# print(len(frutas))
 
-if len(frutas) == 4:
-    print("A lista é igual a 4")
-else:
-    print("A lista é diferende de 4")
+# if len(frutas) == 4:
+#     print("A lista é igual a 4")
+# else:
+#     print("A lista é diferende de 4")
+
+# i = 0
+
+# while i < len(frutas):
+#     print(frutas[i]) 
+#     i = i + 1
+
+numeros = [1, 2, 3, 4, 5]
+
+i = 0
+
+while i < len(numeros):
+    print(numeros[i] + 10)
+    i += 1
