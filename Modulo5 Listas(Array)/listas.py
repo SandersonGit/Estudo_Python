@@ -34,20 +34,29 @@
 
 # slice em python
 
-lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-novaLista = lista[0:5]
+# novaLista = lista[0:5]
 
-print(novaLista)
+# print(novaLista)
 
-novaLista2 = lista[7:]
+# novaLista2 = lista[7:]
 
-print(novaLista2)
+# print(novaLista2)
 
-novaLista3 = lista[:6]
+# novaLista3 = lista[:6]
 
-print(novaLista3)
+# print(novaLista3)
 
-novaLista4 = lista[2:7]
+# novaLista4 = lista[2:7]
 
-print(novaLista4)
+# print(novaLista4)
+
+frutas = ["Maçã", "Cajú", "Banana", "Morango", "Jaca"]
+
+print(len(frutas))
+
+if len(frutas) == 4:
+    print("A lista é igual a 4")
+else:
+    print("A lista é diferende de 4")
