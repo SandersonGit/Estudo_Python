@@ -47,3 +47,7 @@ print(novaLista2)
 novaLista3 = lista[:6]
 
 print(novaLista3)
+
+novaLista4 = lista[2:7]
+
+print(novaLista4)
