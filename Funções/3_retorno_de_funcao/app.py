@@ -14,3 +14,19 @@ def imprimeNome(nome = "Matheus"):
 
 imprimeNome()
 imprimeNome("Melanie")
+
+def soma(a, b):
+    return a + b
+
+def multiplicacao(a , b):
+    return a * b
+
+def operacao(a, b, f):
+    result = f(a, b)
+    return result
+
+a = operacao(5, 5, soma)
+print(a)
+
+b = operacao(10, 5, multiplicacao)
+print(b)
