@@ -17,21 +17,21 @@ imprimeNome("Melanie")
 
 
 # O código define três funções: `soma`, `multiplicacao` e `operacao`. As primeiras realizam operações matemáticas básicas (adição e multiplicação). A função `operacao` aceita duas variáveis e uma função como argumento, aplica a função aos valores e retorna o resultado. O código final chama `operacao` com `soma` e `multiplicacao`, imprimindo os resultados.
-def soma(a, b):
-    return a + b
+# def soma(a, b):
+#     return a + b
 
-def multiplicacao(a , b):
-    return a * b
+# def multiplicacao(a , b):
+#     return a * b
 
-def operacao(a, b, f):
-    result = f(a, b)
-    return result
+# def operacao(a, b, f):
+#     result = f(a, b)
+#     return result
 
-a = operacao(5, 5, soma)
-print(a)
+# a = operacao(5, 5, soma)
+# print(a)
 
-b = operacao(10, 5, multiplicacao)
-print(b)
+# b = operacao(10, 5, multiplicacao)
+# print(b)
 
 # O código define a função `somaTodos` que aceita um número variável de argumentos (`*nums`). Dentro da função, uma variável `soma` é inicializada em 0 e, em seguida, é incrementada com cada número fornecido. A função retorna a soma total. Exemplos mostram a soma de vários números sendo impressa.
 def somaTodos(*nums):
@@ -45,4 +45,19 @@ s = somaTodos(1,5,2,4,44,55,1,123,2,6,9)
 print(s)
 
 s2 = somaTodos(1,2,3)
+print(s2)
+
+
+# A função `multiplicaTodos` aceita um número variável de argumentos, itera sobre eles, calcula o produto e retorna o resultado. Os exemplos mostram como a função pode ser usada com diferentes números de argumentos.
+def multiplicaTodos(*nums):
+    multiplicacao = 1
+    for num in nums:
+        multiplicacao *= num
+    
+    return multiplicacao
+
+s1 = multiplicaTodos(2,5,4,6)
+print(s1)
+
+s2 = multiplicaTodos(2,5)
 print(s2)
