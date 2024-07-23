@@ -61,3 +61,13 @@ print(s1)
 
 s2 = multiplicaTodos(2,5)
 print(s2)
+
+# Neste código, usamos funções lambda, que são funções anônimas em Python definidas com a palavra-chave `lambda`. A função `soma` adiciona 10 ao valor de entrada `x`. A função `somaDoiNumeros` soma dois números `a` e `b`. Funções lambda são úteis para definir funções simples de forma concisa.
+
+soma = lambda x: x + 10
+
+print(soma(10))
+
+somaDoiNumeros = lambda a, b: a + b
+
+print(somaDoiNumeros(10, 10))
