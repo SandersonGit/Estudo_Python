@@ -49,6 +49,7 @@
 # print(calculamedia(lista1))
 # print(calculamedia(lista2))
 
+# O código define duas funções: `string` e `pessoa`. `string` formata uma string com nome, idade e profissão. `pessoa` recebe nome, idade, profissão e uma função, aplicando a função aos valores e retornando o resultado. No final, `pessoa` é chamada com `string`, e o resultado é impresso.
 def string(a, b, c):
     return f"Olá {a}, sua idade é {b} e sua profissão é {c}"
 

@@ -32,3 +32,17 @@ print(a)
 
 b = operacao(10, 5, multiplicacao)
 print(b)
+
+# O código define a função `somaTodos` que aceita um número variável de argumentos (`*nums`). Dentro da função, uma variável `soma` é inicializada em 0 e, em seguida, é incrementada com cada número fornecido. A função retorna a soma total. Exemplos mostram a soma de vários números sendo impressa.
+def somaTodos(*nums):
+    soma = 0
+    for num in nums:
+        soma += num
+    
+    return soma
+
+s = somaTodos(1,5,2,4,44,55,1,123,2,6,9)
+print(s)
+
+s2 = somaTodos(1,2,3)
+print(s2)
