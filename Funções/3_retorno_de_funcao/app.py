@@ -15,6 +15,8 @@ def imprimeNome(nome = "Matheus"):
 imprimeNome()
 imprimeNome("Melanie")
 
+
+# O código define três funções: `soma`, `multiplicacao` e `operacao`. As primeiras realizam operações matemáticas básicas (adição e multiplicação). A função `operacao` aceita duas variáveis e uma função como argumento, aplica a função aos valores e retorna o resultado. O código final chama `operacao` com `soma` e `multiplicacao`, imprimindo os resultados.
 def soma(a, b):
     return a + b
 
